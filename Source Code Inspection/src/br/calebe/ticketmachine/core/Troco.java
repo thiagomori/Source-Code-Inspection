@@ -51,6 +51,12 @@ class Troco {
     public void setPapeisMoeda(PapelMoeda[] papeisMoeda) {
         this.papeisMoeda = papeisMoeda;
     }
+
+    @Override
+    public String toString() {
+        return "Troco{" + "papeisMoeda=" + papeisMoeda + '}';
+    }
+    
     
     
 

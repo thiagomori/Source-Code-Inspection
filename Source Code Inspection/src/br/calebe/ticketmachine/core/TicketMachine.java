@@ -35,6 +35,11 @@ public class TicketMachine {
         this.papelMoeda = papelMoeda;
     }
 
+    @Override
+    public String toString() {
+        return "TicketMachine{" + "valor=" + valor + ", saldo=" + saldo + ", papelMoeda=" + papelMoeda + '}';
+    }
+
     
     
     public void inserir(int quantia) throws PapelMoedaInvalidaException {

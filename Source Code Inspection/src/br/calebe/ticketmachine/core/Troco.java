@@ -44,6 +44,16 @@ class Troco {
         papeisMoeda[0] = new PapelMoeda(2, count);
     }
 
+    public PapelMoeda[] getPapeisMoeda() {
+        return papeisMoeda;
+    }
+
+    public void setPapeisMoeda(PapelMoeda[] papeisMoeda) {
+        this.papeisMoeda = papeisMoeda;
+    }
+    
+    
+
     public Iterator<PapelMoeda> getIterator() {
         return new TrocoIterator(this);
     }
